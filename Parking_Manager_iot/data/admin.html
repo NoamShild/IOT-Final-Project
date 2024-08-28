@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Admin - Manage Parking Slots</title>
+    <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+    <h1>Admin - Manage Parking Slots</h1>
+    <div class="admin-controls">
+        <button onclick="freeSlot(1)">Free Slot 1</button>
+        <button onclick="freeSlot(2)">Free Slot 2</button>
+        <button onclick="freeSlot(3)">Free Slot 3</button>
+    </div>
+    <div class="calibration-factors">
+        <h2>Sensor Status</h2>
+        <div id="slotStatus"></div> 
+    </div>
+    <h2>Reservation Status</h2>
+    <div id="adminInfo" class="admin-info"></div>
+    <script src="/admin.js"></script>
+</body>
+</html>
