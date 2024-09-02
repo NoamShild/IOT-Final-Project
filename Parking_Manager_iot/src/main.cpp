@@ -1,3 +1,23 @@
+/* Final Project
+In this project, we will develop a smart parking lot system that not only allows users to reserve
+parking slots in real-time but also helps them save time by indicating available slots instantly.
+This means no more circling around looking for an open spot in crowded lots.
+Our system utilizes an ESP32 to manage the entry and exit gates, perform scans of the parking lot
+to identify available slots, and communicate this data to an HTML-based server for user access. 
+
+  sensors:
+  1. radar servo motor - pin 23
+  2. gate servo motor - pin 22
+  3. LED strip - pin 18
+  4. radar distance sensor - pins 16 , 17
+  5. gate distance sensor - pins 32 , 33
+
+  Instructable link: https://www.youtube.com/watch?v=Y29MlKcLL6I
+
+  Created by:
+  1. Nimrod Boazi - 208082735
+  2. Noam Shildekraut - 315031864
+*/
 #include <Arduino.h>
 #include <ESP32Servo.h>  // Include the Servo library
 #include <WiFi.h>
