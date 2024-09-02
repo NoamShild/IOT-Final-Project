@@ -12,7 +12,7 @@ to identify available slots, and communicate this data to an HTML-based server f
   4. radar distance sensor - pins 16 , 17
   5. gate distance sensor - pins 32 , 33
 
-  Instructable link: https://www.youtube.com/watch?v=Y29MlKcLL6I
+  Instructable link: https://www.instructables.com/Smart-Parking-Lot-System-With-Arduino-and-HTML/
 
   Created by:
   1. Nimrod Boazi - 208082735
